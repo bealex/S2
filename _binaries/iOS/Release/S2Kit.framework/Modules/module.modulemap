@@ -1,0 +1,10 @@
+framework module S2Kit {
+  umbrella header "S2Kit.h"
+
+  export *
+  module * { export * }
+}
+
+module S2Kit.Swift {
+    header "S2Kit-Swift.h"
+}

@@ -4,7 +4,10 @@
 //
 
 import Foundation
-import KTVKit
+
+#if os(iOS)
+    import KTVKit
+#endif
 
 public class S2Styler: CustomStringConvertible {
     private var _sourceStyleFiles:[String:KTVObject] = [:]
@@ -168,8 +171,8 @@ public class S2Styler: CustomStringConvertible {
         }
     }
 
-    func generateClassToFile(path:String, rootClassName:String, withGenerator generator: S2Generator) throws {
-        try generator.generateToFile(path, fromObject:_wholeNotExpandedStyle, rootClassName:rootClassName)
+    func generateClassToFile(path:String, rootClassName:String, withGenerator generator: S2Generator, needS2Import: Bool) throws {
+        try generator.generateToFile(path, fromObject:_wholeNotExpandedStyle, rootClassName:rootClassName, needS2Import:needS2Import)
 //        try generator.generateClassesToFile(path, fromObject:_expandedStyle, rootClassName:rootClassName)
     }
 

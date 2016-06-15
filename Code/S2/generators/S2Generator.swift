@@ -4,8 +4,11 @@
 //
 
 import Foundation
-import KTVKit
+
+#if os(iOS)
+    import KTVKit
+#endif
 
 protocol S2Generator {
-    func generateToFile(path:String, fromObject:KTVObject, rootClassName:String) throws
+    func generateToFile(path:String, fromObject:KTVObject, rootClassName:String, needS2Import:Bool) throws
 }

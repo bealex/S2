@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/S2Kit-Swift.h</key>
 		<data>
-		XKOotXbBaRwwGo8Go0eNo7wdIG0=
+		WSmXplvr1UROkpL29dNJ4G4DCbY=
 		</data>
 		<key>Headers/S2Kit.h</key>
 		<data>
@@ -14,59 +14,123 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6f0DOAb90p6RtKM3kIF8BFeQ1oQ=
+		1m/u/pK3lUJzdTbcJwkHLoywjbc=
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm.swiftdoc</key>
 		<data>
-		0jTdGECSulpKoMgImXR76UDYesM=
+		vX3li+0pmJfxIOleJRvM7XzulwQ=
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		fG0EXTws6Ddy5/8jy/cDnqudvos=
+		OsLx2EpnU0hmmKwOuVrVAQTInHg=
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		6wWJFxti47F82wQwyCd0Xa8++Bw=
+		7BUlQBrhUQ77wbgVsUxliml4eHA=
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		aDxHJ750Ln+8C6FPXuP4uLPX5tA=
+		t1ICRThs9Av+4GzaKy9yqz37xvA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		8FDMARddiqtDAyTmUH0UzKjsUms=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		OPY6qd/FV5rZnJrBAxZrp5120co=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/S2Kit-Swift.h</key>
-		<data>
-		XKOotXbBaRwwGo8Go0eNo7wdIG0=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			WSmXplvr1UROkpL29dNJ4G4DCbY=
+			</data>
+			<key>hash2</key>
+			<data>
+			6iBxItPP/0be0GPYjJ05b2CU4dpF+II4ETgaVcfnDRs=
+			</data>
+		</dict>
 		<key>Headers/S2Kit.h</key>
-		<data>
-		KYO3Kx6PrL5HUCR9RU18d6xMhVE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			KYO3Kx6PrL5HUCR9RU18d6xMhVE=
+			</data>
+			<key>hash2</key>
+			<data>
+			FQjxr+ORrTJ13f7EJzYEWoSQbygVUpg1A27thZxEE8g=
+			</data>
+		</dict>
 		<key>Modules/S2Kit.swiftmodule/arm.swiftdoc</key>
-		<data>
-		0jTdGECSulpKoMgImXR76UDYesM=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			vX3li+0pmJfxIOleJRvM7XzulwQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			4jL5SYsuUZwVrVKRBF0W93GFHjdKVzLWV5emq9vS8g4=
+			</data>
+		</dict>
 		<key>Modules/S2Kit.swiftmodule/arm.swiftmodule</key>
-		<data>
-		fG0EXTws6Ddy5/8jy/cDnqudvos=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			OsLx2EpnU0hmmKwOuVrVAQTInHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			AHnkZnQC1+WIrh8OyZVtmIC1K5Fb98u06XB4Ro2quBM=
+			</data>
+		</dict>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		6wWJFxti47F82wQwyCd0Xa8++Bw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7BUlQBrhUQ77wbgVsUxliml4eHA=
+			</data>
+			<key>hash2</key>
+			<data>
+			HsTmECpPnCMRxnb73uLJ1+KT7c6FmxT04MLIAz3OSiA=
+			</data>
+		</dict>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		aDxHJ750Ln+8C6FPXuP4uLPX5tA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			t1ICRThs9Av+4GzaKy9yqz37xvA=
+			</data>
+			<key>hash2</key>
+			<data>
+			uNxfRBwlqg+pV6w4ZKrSoqlDInrq8iRvwIqvEe1FI4U=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		8FDMARddiqtDAyTmUH0UzKjsUms=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FDMARddiqtDAyTmUH0UzKjsUms=
+			</data>
+			<key>hash2</key>
+			<data>
+			dfAR+p8m3btzWezHO5bPDQqR4TP8YVt01T85GaArlBw=
+			</data>
+		</dict>
+		<key>embedded.mobileprovision</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OPY6qd/FV5rZnJrBAxZrp5120co=
+			</data>
+			<key>hash2</key>
+			<data>
+			4yb4Yjfgfd3w1w27L4hPjH84au1csC7FKiw5dudrvC8=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -85,6 +149,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -130,6 +199,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

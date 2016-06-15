@@ -16,30 +16,30 @@
 		FA7700131C90944500B63FCC /* S2StylerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */; };
 		FA7700141C90944500B63FCC /* S2Styler+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1FF29DB22A36B4BBD51B /* S2Styler+Extensions.swift */; };
 		FA7700151C90944500B63FCC /* S2Styler+UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA178178959918436470F0 /* S2Styler+UIExtensions.swift */; };
-		FA7700161C90944500B63FCC /* KTVMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CA1C8F26FF00317ADD /* KTVMapper.swift */; };
-		FA7700171C90944500B63FCC /* KTVModelBasicMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CB1C8F26FF00317ADD /* KTVModelBasicMapper.swift */; };
-		FA7700181C90944500B63FCC /* KTVModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CC1C8F26FF00317ADD /* KTVModelObject.swift */; };
-		FA7700191C90944500B63FCC /* KTVParseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CD1C8F26FF00317ADD /* KTVParseable.swift */; };
-		FA77001A1C90944500B63FCC /* KTVParseableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CE1C8F26FF00317ADD /* KTVParseableUtils.swift */; };
-		FA77001B1C90944500B63FCC /* KTVSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CF1C8F26FF00317ADD /* KTVSerializable.swift */; };
-		FA77001C1C90944500B63FCC /* KTVModelMapperArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D11C8F26FF00317ADD /* KTVModelMapperArray.swift */; };
-		FA77001D1C90944500B63FCC /* KTVModelMapperBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D21C8F26FF00317ADD /* KTVModelMapperBool.swift */; };
-		FA77001E1C90944500B63FCC /* KTVModelMapperDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D31C8F26FF00317ADD /* KTVModelMapperDictionary.swift */; };
-		FA77001F1C90944500B63FCC /* KTVModelMapperDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D41C8F26FF00317ADD /* KTVModelMapperDouble.swift */; };
-		FA7700201C90944500B63FCC /* KTVModelMapperInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D51C8F26FF00317ADD /* KTVModelMapperInt.swift */; };
-		FA7700211C90944500B63FCC /* KTVModelMapperNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D61C8F26FF00317ADD /* KTVModelMapperNSDate.swift */; };
-		FA7700221C90944500B63FCC /* KTVModelMapperString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D71C8F26FF00317ADD /* KTVModelMapperString.swift */; };
-		FA7700231C90944500B63FCC /* KTVArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D81C8F26FF00317ADD /* KTVArray.swift */; };
-		FA7700241C90944500B63FCC /* KTVObject+Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D91C8F26FF00317ADD /* KTVObject+Generation.swift */; };
-		FA7700251C90944500B63FCC /* KTVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DA1C8F26FF00317ADD /* KTVObject.swift */; };
-		FA7700261C90944500B63FCC /* KTVValue+Resolvers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DB1C8F26FF00317ADD /* KTVValue+Resolvers.swift */; };
-		FA7700271C90944500B63FCC /* KTVValue+UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DC1C8F26FF00317ADD /* KTVValue+UIExtensions.swift */; };
-		FA7700281C90944500B63FCC /* KTVValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DD1C8F26FF00317ADD /* KTVValue.swift */; };
-		FA7700291C90944500B63FCC /* KTVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DF1C8F26FF00317ADD /* KTVParser.swift */; };
-		FA77002A1C90944500B63FCC /* KTVParserCharGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E01C8F26FF00317ADD /* KTVParserCharGenerator.swift */; };
-		FA77002B1C90944500B63FCC /* KTVParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E11C8F26FF00317ADD /* KTVParserErrors.swift */; };
-		FA77002C1C90944500B63FCC /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E31C8F26FF00317ADD /* ColorUtils.swift */; };
-		FA77002D1C90944500B63FCC /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E41C8F26FF00317ADD /* DateUtils.swift */; };
+		FAB11A5C1D11509A00A373A3 /* KTVGeneratorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A401D11509A00A373A3 /* KTVGeneratorErrors.swift */; };
+		FAB11A5D1D11509A00A373A3 /* KTVMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A411D11509A00A373A3 /* KTVMapper.swift */; };
+		FAB11A5E1D11509A00A373A3 /* KTVModelBasicMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A421D11509A00A373A3 /* KTVModelBasicMapper.swift */; };
+		FAB11A5F1D11509A00A373A3 /* KTVModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A431D11509A00A373A3 /* KTVModelObject.swift */; };
+		FAB11A601D11509A00A373A3 /* KTVParseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A441D11509A00A373A3 /* KTVParseable.swift */; };
+		FAB11A611D11509A00A373A3 /* KTVParseableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A451D11509A00A373A3 /* KTVParseableUtils.swift */; };
+		FAB11A621D11509A00A373A3 /* KTVSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A461D11509A00A373A3 /* KTVSerializable.swift */; };
+		FAB11A631D11509A00A373A3 /* KTVModelMapperArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A481D11509A00A373A3 /* KTVModelMapperArray.swift */; };
+		FAB11A641D11509A00A373A3 /* KTVModelMapperBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A491D11509A00A373A3 /* KTVModelMapperBool.swift */; };
+		FAB11A651D11509A00A373A3 /* KTVModelMapperDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A4A1D11509A00A373A3 /* KTVModelMapperDictionary.swift */; };
+		FAB11A661D11509A00A373A3 /* KTVModelMapperDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A4B1D11509A00A373A3 /* KTVModelMapperDouble.swift */; };
+		FAB11A671D11509A00A373A3 /* KTVModelMapperInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A4C1D11509A00A373A3 /* KTVModelMapperInt.swift */; };
+		FAB11A681D11509A00A373A3 /* KTVModelMapperNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A4D1D11509A00A373A3 /* KTVModelMapperNSDate.swift */; };
+		FAB11A691D11509A00A373A3 /* KTVModelMapperString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A4E1D11509A00A373A3 /* KTVModelMapperString.swift */; };
+		FAB11A6A1D11509A00A373A3 /* KTVArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A4F1D11509A00A373A3 /* KTVArray.swift */; };
+		FAB11A6B1D11509A00A373A3 /* KTVObject+Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A501D11509A00A373A3 /* KTVObject+Generation.swift */; };
+		FAB11A6C1D11509A00A373A3 /* KTVObject+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A511D11509A00A373A3 /* KTVObject+Helpers.swift */; };
+		FAB11A6D1D11509A00A373A3 /* KTVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A521D11509A00A373A3 /* KTVObject.swift */; };
+		FAB11A6E1D11509A00A373A3 /* KTVObjectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A531D11509A00A373A3 /* KTVObjectError.swift */; };
+		FAB11A6F1D11509A00A373A3 /* KTVValue+Resolvers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A541D11509A00A373A3 /* KTVValue+Resolvers.swift */; };
+		FAB11A711D11509A00A373A3 /* KTVValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A561D11509A00A373A3 /* KTVValue.swift */; };
+		FAB11A721D11509A00A373A3 /* KTVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A581D11509A00A373A3 /* KTVParser.swift */; };
+		FAB11A731D11509A00A373A3 /* KTVParserCharGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A591D11509A00A373A3 /* KTVParserCharGenerator.swift */; };
+		FAB11A741D11509A00A373A3 /* KTVParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A5A1D11509A00A373A3 /* KTVParserErrors.swift */; };
 		FAB6087D1C6E406B008CCBDA /* S2Styler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA185E60E2DD94EE336389 /* S2Styler.swift */; };
 		FAB6087E1C6E406B008CCBDA /* S2Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA186CA7913B3C40169006 /* S2Object.swift */; };
 		FAB6087F1C6E406B008CCBDA /* S2StylerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */; };
@@ -47,27 +47,6 @@
 		FAB608811C6E406B008CCBDA /* S2GeneratorSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA13330CCA12F441405487 /* S2GeneratorSwift.swift */; };
 		FAB608821C6E406B008CCBDA /* S2GeneratorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA195DFF1EE9AE025EA491 /* S2GeneratorErrors.swift */; };
 		FAB608831C6E406B008CCBDA /* S2Styler+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1FF29DB22A36B4BBD51B /* S2Styler+Extensions.swift */; };
-		FAF9D7E71C8F26FF00317ADD /* KTVMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CA1C8F26FF00317ADD /* KTVMapper.swift */; };
-		FAF9D7E81C8F26FF00317ADD /* KTVModelBasicMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CB1C8F26FF00317ADD /* KTVModelBasicMapper.swift */; };
-		FAF9D7E91C8F26FF00317ADD /* KTVModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CC1C8F26FF00317ADD /* KTVModelObject.swift */; };
-		FAF9D7EA1C8F26FF00317ADD /* KTVParseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CD1C8F26FF00317ADD /* KTVParseable.swift */; };
-		FAF9D7EB1C8F26FF00317ADD /* KTVParseableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CE1C8F26FF00317ADD /* KTVParseableUtils.swift */; };
-		FAF9D7EC1C8F26FF00317ADD /* KTVSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7CF1C8F26FF00317ADD /* KTVSerializable.swift */; };
-		FAF9D7ED1C8F26FF00317ADD /* KTVModelMapperArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D11C8F26FF00317ADD /* KTVModelMapperArray.swift */; };
-		FAF9D7EE1C8F26FF00317ADD /* KTVModelMapperBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D21C8F26FF00317ADD /* KTVModelMapperBool.swift */; };
-		FAF9D7EF1C8F26FF00317ADD /* KTVModelMapperDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D31C8F26FF00317ADD /* KTVModelMapperDictionary.swift */; };
-		FAF9D7F01C8F26FF00317ADD /* KTVModelMapperDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D41C8F26FF00317ADD /* KTVModelMapperDouble.swift */; };
-		FAF9D7F11C8F26FF00317ADD /* KTVModelMapperInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D51C8F26FF00317ADD /* KTVModelMapperInt.swift */; };
-		FAF9D7F21C8F26FF00317ADD /* KTVModelMapperNSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D61C8F26FF00317ADD /* KTVModelMapperNSDate.swift */; };
-		FAF9D7F31C8F26FF00317ADD /* KTVModelMapperString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D71C8F26FF00317ADD /* KTVModelMapperString.swift */; };
-		FAF9D7F41C8F26FF00317ADD /* KTVArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D81C8F26FF00317ADD /* KTVArray.swift */; };
-		FAF9D7F51C8F26FF00317ADD /* KTVObject+Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7D91C8F26FF00317ADD /* KTVObject+Generation.swift */; };
-		FAF9D7F61C8F26FF00317ADD /* KTVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DA1C8F26FF00317ADD /* KTVObject.swift */; };
-		FAF9D7F71C8F26FF00317ADD /* KTVValue+Resolvers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DB1C8F26FF00317ADD /* KTVValue+Resolvers.swift */; };
-		FAF9D7F91C8F26FF00317ADD /* KTVValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DD1C8F26FF00317ADD /* KTVValue.swift */; };
-		FAF9D7FA1C8F26FF00317ADD /* KTVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7DF1C8F26FF00317ADD /* KTVParser.swift */; };
-		FAF9D7FB1C8F26FF00317ADD /* KTVParserCharGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E01C8F26FF00317ADD /* KTVParserCharGenerator.swift */; };
-		FAF9D7FC1C8F26FF00317ADD /* KTVParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E11C8F26FF00317ADD /* KTVParserErrors.swift */; };
 		FAF9D7FD1C8F26FF00317ADD /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E31C8F26FF00317ADD /* ColorUtils.swift */; };
 		FAF9D7FE1C8F26FF00317ADD /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D7E41C8F26FF00317ADD /* DateUtils.swift */; };
 		FAF9D8481C8F28E600317ADD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF9D8471C8F28E600317ADD /* main.swift */; };
@@ -97,29 +76,32 @@
 		FA7700061C9093FC00B63FCC /* S2Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S2Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7700081C9093FC00B63FCC /* S2Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S2Kit.h; sourceTree = "<group>"; };
 		FA77000A1C9093FC00B63FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB11A401D11509A00A373A3 /* KTVGeneratorErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVGeneratorErrors.swift; sourceTree = "<group>"; };
+		FAB11A411D11509A00A373A3 /* KTVMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVMapper.swift; sourceTree = "<group>"; };
+		FAB11A421D11509A00A373A3 /* KTVModelBasicMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelBasicMapper.swift; sourceTree = "<group>"; };
+		FAB11A431D11509A00A373A3 /* KTVModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelObject.swift; sourceTree = "<group>"; };
+		FAB11A441D11509A00A373A3 /* KTVParseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParseable.swift; sourceTree = "<group>"; };
+		FAB11A451D11509A00A373A3 /* KTVParseableUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParseableUtils.swift; sourceTree = "<group>"; };
+		FAB11A461D11509A00A373A3 /* KTVSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVSerializable.swift; sourceTree = "<group>"; };
+		FAB11A481D11509A00A373A3 /* KTVModelMapperArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperArray.swift; sourceTree = "<group>"; };
+		FAB11A491D11509A00A373A3 /* KTVModelMapperBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperBool.swift; sourceTree = "<group>"; };
+		FAB11A4A1D11509A00A373A3 /* KTVModelMapperDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperDictionary.swift; sourceTree = "<group>"; };
+		FAB11A4B1D11509A00A373A3 /* KTVModelMapperDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperDouble.swift; sourceTree = "<group>"; };
+		FAB11A4C1D11509A00A373A3 /* KTVModelMapperInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperInt.swift; sourceTree = "<group>"; };
+		FAB11A4D1D11509A00A373A3 /* KTVModelMapperNSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperNSDate.swift; sourceTree = "<group>"; };
+		FAB11A4E1D11509A00A373A3 /* KTVModelMapperString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperString.swift; sourceTree = "<group>"; };
+		FAB11A4F1D11509A00A373A3 /* KTVArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVArray.swift; sourceTree = "<group>"; };
+		FAB11A501D11509A00A373A3 /* KTVObject+Generation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KTVObject+Generation.swift"; sourceTree = "<group>"; };
+		FAB11A511D11509A00A373A3 /* KTVObject+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KTVObject+Helpers.swift"; sourceTree = "<group>"; };
+		FAB11A521D11509A00A373A3 /* KTVObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVObject.swift; sourceTree = "<group>"; };
+		FAB11A531D11509A00A373A3 /* KTVObjectError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVObjectError.swift; sourceTree = "<group>"; };
+		FAB11A541D11509A00A373A3 /* KTVValue+Resolvers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KTVValue+Resolvers.swift"; sourceTree = "<group>"; };
+		FAB11A561D11509A00A373A3 /* KTVValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVValue.swift; sourceTree = "<group>"; };
+		FAB11A581D11509A00A373A3 /* KTVParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParser.swift; sourceTree = "<group>"; };
+		FAB11A591D11509A00A373A3 /* KTVParserCharGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParserCharGenerator.swift; sourceTree = "<group>"; };
+		FAB11A5A1D11509A00A373A3 /* KTVParserErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParserErrors.swift; sourceTree = "<group>"; };
 		FAB608701C6E3F73008CCBDA /* s2generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = s2generator; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAF9D7CA1C8F26FF00317ADD /* KTVMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVMapper.swift; sourceTree = "<group>"; };
-		FAF9D7CB1C8F26FF00317ADD /* KTVModelBasicMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelBasicMapper.swift; sourceTree = "<group>"; };
-		FAF9D7CC1C8F26FF00317ADD /* KTVModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelObject.swift; sourceTree = "<group>"; };
-		FAF9D7CD1C8F26FF00317ADD /* KTVParseable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParseable.swift; sourceTree = "<group>"; };
-		FAF9D7CE1C8F26FF00317ADD /* KTVParseableUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParseableUtils.swift; sourceTree = "<group>"; };
-		FAF9D7CF1C8F26FF00317ADD /* KTVSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVSerializable.swift; sourceTree = "<group>"; };
-		FAF9D7D11C8F26FF00317ADD /* KTVModelMapperArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperArray.swift; sourceTree = "<group>"; };
-		FAF9D7D21C8F26FF00317ADD /* KTVModelMapperBool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperBool.swift; sourceTree = "<group>"; };
-		FAF9D7D31C8F26FF00317ADD /* KTVModelMapperDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperDictionary.swift; sourceTree = "<group>"; };
-		FAF9D7D41C8F26FF00317ADD /* KTVModelMapperDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperDouble.swift; sourceTree = "<group>"; };
-		FAF9D7D51C8F26FF00317ADD /* KTVModelMapperInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperInt.swift; sourceTree = "<group>"; };
-		FAF9D7D61C8F26FF00317ADD /* KTVModelMapperNSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperNSDate.swift; sourceTree = "<group>"; };
-		FAF9D7D71C8F26FF00317ADD /* KTVModelMapperString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVModelMapperString.swift; sourceTree = "<group>"; };
-		FAF9D7D81C8F26FF00317ADD /* KTVArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVArray.swift; sourceTree = "<group>"; };
-		FAF9D7D91C8F26FF00317ADD /* KTVObject+Generation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KTVObject+Generation.swift"; sourceTree = "<group>"; };
-		FAF9D7DA1C8F26FF00317ADD /* KTVObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVObject.swift; sourceTree = "<group>"; };
-		FAF9D7DB1C8F26FF00317ADD /* KTVValue+Resolvers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KTVValue+Resolvers.swift"; sourceTree = "<group>"; };
-		FAF9D7DC1C8F26FF00317ADD /* KTVValue+UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KTVValue+UIExtensions.swift"; sourceTree = "<group>"; };
-		FAF9D7DD1C8F26FF00317ADD /* KTVValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVValue.swift; sourceTree = "<group>"; };
-		FAF9D7DF1C8F26FF00317ADD /* KTVParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParser.swift; sourceTree = "<group>"; };
-		FAF9D7E01C8F26FF00317ADD /* KTVParserCharGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParserCharGenerator.swift; sourceTree = "<group>"; };
-		FAF9D7E11C8F26FF00317ADD /* KTVParserErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTVParserErrors.swift; sourceTree = "<group>"; };
+		FAD2FF161D0AE2D30035BB4E /* KTVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KTVKit.framework; path = ../../KTV/_binaries/iOS/Release/KTVKit.framework; sourceTree = "<group>"; };
 		FAF9D7E31C8F26FF00317ADD /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 		FAF9D7E41C8F26FF00317ADD /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		FAF9D8471C8F28E600317ADD /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -169,6 +151,7 @@
 		FA7700071C9093FC00B63FCC /* S2Kit */ = {
 			isa = PBXGroup;
 			children = (
+				FAD2FF161D0AE2D30035BB4E /* KTVKit.framework */,
 				FA7700081C9093FC00B63FCC /* S2Kit.h */,
 				FA77000A1C9093FC00B63FCC /* Info.plist */,
 			);
@@ -196,64 +179,66 @@
 		FA91DA6B1C44301000A288A3 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				FAB11A3D1D11509A00A373A3 /* KTV */,
 				2DBA1B00EC4313EC3E8BCD56 /* S2 */,
-				FAF9D7C61C8F26FF00317ADD /* KTV */,
 				FAF9D7E21C8F26FF00317ADD /* KTVUtils */,
 				FAF9D8471C8F28E600317ADD /* main.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
 		};
-		FAF9D7C61C8F26FF00317ADD /* KTV */ = {
+		FAB11A3D1D11509A00A373A3 /* KTV */ = {
 			isa = PBXGroup;
 			children = (
-				FAF9D7C71C8F26FF00317ADD /* generators */,
-				FAF9D7D81C8F26FF00317ADD /* KTVArray.swift */,
-				FAF9D7D91C8F26FF00317ADD /* KTVObject+Generation.swift */,
-				FAF9D7DA1C8F26FF00317ADD /* KTVObject.swift */,
-				FAF9D7DB1C8F26FF00317ADD /* KTVValue+Resolvers.swift */,
-				FAF9D7DC1C8F26FF00317ADD /* KTVValue+UIExtensions.swift */,
-				FAF9D7DD1C8F26FF00317ADD /* KTVValue.swift */,
-				FAF9D7DE1C8F26FF00317ADD /* parser */,
+				FAB11A3E1D11509A00A373A3 /* generators */,
+				FAB11A4F1D11509A00A373A3 /* KTVArray.swift */,
+				FAB11A501D11509A00A373A3 /* KTVObject+Generation.swift */,
+				FAB11A511D11509A00A373A3 /* KTVObject+Helpers.swift */,
+				FAB11A521D11509A00A373A3 /* KTVObject.swift */,
+				FAB11A531D11509A00A373A3 /* KTVObjectError.swift */,
+				FAB11A541D11509A00A373A3 /* KTVValue+Resolvers.swift */,
+				FAB11A561D11509A00A373A3 /* KTVValue.swift */,
+				FAB11A571D11509A00A373A3 /* parser */,
 			);
 			name = KTV;
 			path = ../../KTV/Code/KTV;
 			sourceTree = "<group>";
 		};
-		FAF9D7C71C8F26FF00317ADD /* generators */ = {
+		FAB11A3E1D11509A00A373A3 /* generators */ = {
 			isa = PBXGroup;
 			children = (
-				FAF9D7CA1C8F26FF00317ADD /* KTVMapper.swift */,
-				FAF9D7CB1C8F26FF00317ADD /* KTVModelBasicMapper.swift */,
-				FAF9D7CC1C8F26FF00317ADD /* KTVModelObject.swift */,
-				FAF9D7CD1C8F26FF00317ADD /* KTVParseable.swift */,
-				FAF9D7CE1C8F26FF00317ADD /* KTVParseableUtils.swift */,
-				FAF9D7CF1C8F26FF00317ADD /* KTVSerializable.swift */,
-				FAF9D7D01C8F26FF00317ADD /* mappers */,
+				FAB11A401D11509A00A373A3 /* KTVGeneratorErrors.swift */,
+				FAB11A411D11509A00A373A3 /* KTVMapper.swift */,
+				FAB11A421D11509A00A373A3 /* KTVModelBasicMapper.swift */,
+				FAB11A431D11509A00A373A3 /* KTVModelObject.swift */,
+				FAB11A441D11509A00A373A3 /* KTVParseable.swift */,
+				FAB11A451D11509A00A373A3 /* KTVParseableUtils.swift */,
+				FAB11A461D11509A00A373A3 /* KTVSerializable.swift */,
+				FAB11A471D11509A00A373A3 /* mappers */,
 			);
 			path = generators;
 			sourceTree = "<group>";
 		};
-		FAF9D7D01C8F26FF00317ADD /* mappers */ = {
+		FAB11A471D11509A00A373A3 /* mappers */ = {
 			isa = PBXGroup;
 			children = (
-				FAF9D7D11C8F26FF00317ADD /* KTVModelMapperArray.swift */,
-				FAF9D7D21C8F26FF00317ADD /* KTVModelMapperBool.swift */,
-				FAF9D7D31C8F26FF00317ADD /* KTVModelMapperDictionary.swift */,
-				FAF9D7D41C8F26FF00317ADD /* KTVModelMapperDouble.swift */,
-				FAF9D7D51C8F26FF00317ADD /* KTVModelMapperInt.swift */,
-				FAF9D7D61C8F26FF00317ADD /* KTVModelMapperNSDate.swift */,
-				FAF9D7D71C8F26FF00317ADD /* KTVModelMapperString.swift */,
+				FAB11A481D11509A00A373A3 /* KTVModelMapperArray.swift */,
+				FAB11A491D11509A00A373A3 /* KTVModelMapperBool.swift */,
+				FAB11A4A1D11509A00A373A3 /* KTVModelMapperDictionary.swift */,
+				FAB11A4B1D11509A00A373A3 /* KTVModelMapperDouble.swift */,
+				FAB11A4C1D11509A00A373A3 /* KTVModelMapperInt.swift */,
+				FAB11A4D1D11509A00A373A3 /* KTVModelMapperNSDate.swift */,
+				FAB11A4E1D11509A00A373A3 /* KTVModelMapperString.swift */,
 			);
 			path = mappers;
 			sourceTree = "<group>";
 		};
-		FAF9D7DE1C8F26FF00317ADD /* parser */ = {
+		FAB11A571D11509A00A373A3 /* parser */ = {
 			isa = PBXGroup;
 			children = (
-				FAF9D7DF1C8F26FF00317ADD /* KTVParser.swift */,
-				FAF9D7E01C8F26FF00317ADD /* KTVParserCharGenerator.swift */,
-				FAF9D7E11C8F26FF00317ADD /* KTVParserErrors.swift */,
+				FAB11A581D11509A00A373A3 /* KTVParser.swift */,
+				FAB11A591D11509A00A373A3 /* KTVParserCharGenerator.swift */,
+				FAB11A5A1D11509A00A373A3 /* KTVParserErrors.swift */,
 			);
 			path = parser;
 			sourceTree = "<group>";
@@ -325,6 +310,9 @@
 		FA91DA451C442B2800A288A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LonelyBytes;
@@ -408,30 +396,6 @@
 				FA7700131C90944500B63FCC /* S2StylerErrors.swift in Sources */,
 				FA7700141C90944500B63FCC /* S2Styler+Extensions.swift in Sources */,
 				FA7700151C90944500B63FCC /* S2Styler+UIExtensions.swift in Sources */,
-				FA7700161C90944500B63FCC /* KTVMapper.swift in Sources */,
-				FA7700171C90944500B63FCC /* KTVModelBasicMapper.swift in Sources */,
-				FA7700181C90944500B63FCC /* KTVModelObject.swift in Sources */,
-				FA7700191C90944500B63FCC /* KTVParseable.swift in Sources */,
-				FA77001A1C90944500B63FCC /* KTVParseableUtils.swift in Sources */,
-				FA77001B1C90944500B63FCC /* KTVSerializable.swift in Sources */,
-				FA77001C1C90944500B63FCC /* KTVModelMapperArray.swift in Sources */,
-				FA77001D1C90944500B63FCC /* KTVModelMapperBool.swift in Sources */,
-				FA77001E1C90944500B63FCC /* KTVModelMapperDictionary.swift in Sources */,
-				FA77001F1C90944500B63FCC /* KTVModelMapperDouble.swift in Sources */,
-				FA7700201C90944500B63FCC /* KTVModelMapperInt.swift in Sources */,
-				FA7700211C90944500B63FCC /* KTVModelMapperNSDate.swift in Sources */,
-				FA7700221C90944500B63FCC /* KTVModelMapperString.swift in Sources */,
-				FA7700231C90944500B63FCC /* KTVArray.swift in Sources */,
-				FA7700241C90944500B63FCC /* KTVObject+Generation.swift in Sources */,
-				FA7700251C90944500B63FCC /* KTVObject.swift in Sources */,
-				FA7700261C90944500B63FCC /* KTVValue+Resolvers.swift in Sources */,
-				FA7700271C90944500B63FCC /* KTVValue+UIExtensions.swift in Sources */,
-				FA7700281C90944500B63FCC /* KTVValue.swift in Sources */,
-				FA7700291C90944500B63FCC /* KTVParser.swift in Sources */,
-				FA77002A1C90944500B63FCC /* KTVParserCharGenerator.swift in Sources */,
-				FA77002B1C90944500B63FCC /* KTVParserErrors.swift in Sources */,
-				FA77002C1C90944500B63FCC /* ColorUtils.swift in Sources */,
-				FA77002D1C90944500B63FCC /* DateUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,37 +403,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB11A621D11509A00A373A3 /* KTVSerializable.swift in Sources */,
+				FAB11A601D11509A00A373A3 /* KTVParseable.swift in Sources */,
 				FAB6087D1C6E406B008CCBDA /* S2Styler.swift in Sources */,
-				FAF9D7EF1C8F26FF00317ADD /* KTVModelMapperDictionary.swift in Sources */,
 				FAB6087E1C6E406B008CCBDA /* S2Object.swift in Sources */,
+				FAB11A721D11509A00A373A3 /* KTVParser.swift in Sources */,
+				FAB11A741D11509A00A373A3 /* KTVParserErrors.swift in Sources */,
+				FAB11A6E1D11509A00A373A3 /* KTVObjectError.swift in Sources */,
 				FAB6087F1C6E406B008CCBDA /* S2StylerErrors.swift in Sources */,
-				FAF9D7F71C8F26FF00317ADD /* KTVValue+Resolvers.swift in Sources */,
+				FAB11A641D11509A00A373A3 /* KTVModelMapperBool.swift in Sources */,
+				FAB11A681D11509A00A373A3 /* KTVModelMapperNSDate.swift in Sources */,
+				FAB11A691D11509A00A373A3 /* KTVModelMapperString.swift in Sources */,
 				FAB608801C6E406B008CCBDA /* S2Generator.swift in Sources */,
-				FAF9D7F41C8F26FF00317ADD /* KTVArray.swift in Sources */,
-				FAF9D7E81C8F26FF00317ADD /* KTVModelBasicMapper.swift in Sources */,
-				FAF9D7F21C8F26FF00317ADD /* KTVModelMapperNSDate.swift in Sources */,
-				FAF9D7FA1C8F26FF00317ADD /* KTVParser.swift in Sources */,
+				FAB11A631D11509A00A373A3 /* KTVModelMapperArray.swift in Sources */,
+				FAB11A6A1D11509A00A373A3 /* KTVArray.swift in Sources */,
+				FAB11A6C1D11509A00A373A3 /* KTVObject+Helpers.swift in Sources */,
 				FAB608811C6E406B008CCBDA /* S2GeneratorSwift.swift in Sources */,
-				FAF9D7E71C8F26FF00317ADD /* KTVMapper.swift in Sources */,
+				FAB11A731D11509A00A373A3 /* KTVParserCharGenerator.swift in Sources */,
+				FAB11A5F1D11509A00A373A3 /* KTVModelObject.swift in Sources */,
+				FAB11A5D1D11509A00A373A3 /* KTVMapper.swift in Sources */,
 				FAF9D8481C8F28E600317ADD /* main.swift in Sources */,
 				FAF9D7FE1C8F26FF00317ADD /* DateUtils.swift in Sources */,
+				FAB11A6B1D11509A00A373A3 /* KTVObject+Generation.swift in Sources */,
+				FAB11A711D11509A00A373A3 /* KTVValue.swift in Sources */,
+				FAB11A6D1D11509A00A373A3 /* KTVObject.swift in Sources */,
+				FAB11A5C1D11509A00A373A3 /* KTVGeneratorErrors.swift in Sources */,
+				FAB11A6F1D11509A00A373A3 /* KTVValue+Resolvers.swift in Sources */,
+				FAB11A651D11509A00A373A3 /* KTVModelMapperDictionary.swift in Sources */,
 				FAB608821C6E406B008CCBDA /* S2GeneratorErrors.swift in Sources */,
-				FAF9D7EB1C8F26FF00317ADD /* KTVParseableUtils.swift in Sources */,
-				FAF9D7FC1C8F26FF00317ADD /* KTVParserErrors.swift in Sources */,
-				FAF9D7F01C8F26FF00317ADD /* KTVModelMapperDouble.swift in Sources */,
-				FAF9D7F91C8F26FF00317ADD /* KTVValue.swift in Sources */,
-				FAF9D7F61C8F26FF00317ADD /* KTVObject.swift in Sources */,
-				FAF9D7E91C8F26FF00317ADD /* KTVModelObject.swift in Sources */,
-				FAF9D7ED1C8F26FF00317ADD /* KTVModelMapperArray.swift in Sources */,
+				FAB11A5E1D11509A00A373A3 /* KTVModelBasicMapper.swift in Sources */,
+				FAB11A671D11509A00A373A3 /* KTVModelMapperInt.swift in Sources */,
+				FAB11A611D11509A00A373A3 /* KTVParseableUtils.swift in Sources */,
 				FAB608831C6E406B008CCBDA /* S2Styler+Extensions.swift in Sources */,
-				FAF9D7F51C8F26FF00317ADD /* KTVObject+Generation.swift in Sources */,
-				FAF9D7EC1C8F26FF00317ADD /* KTVSerializable.swift in Sources */,
-				FAF9D7EE1C8F26FF00317ADD /* KTVModelMapperBool.swift in Sources */,
-				FAF9D7FB1C8F26FF00317ADD /* KTVParserCharGenerator.swift in Sources */,
-				FAF9D7F11C8F26FF00317ADD /* KTVModelMapperInt.swift in Sources */,
-				FAF9D7F31C8F26FF00317ADD /* KTVModelMapperString.swift in Sources */,
 				FAF9D7FD1C8F26FF00317ADD /* ColorUtils.swift in Sources */,
-				FAF9D7EA1C8F26FF00317ADD /* KTVParseable.swift in Sources */,
+				FAB11A661D11509A00A373A3 /* KTVModelMapperDouble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,17 +446,20 @@
 		FA77000B1C9093FC00B63FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Babaev (H8VN44VCRU)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/../KTV/_binaries/iOS/${CONFIGURATION}";
 				INFOPLIST_FILE = S2Kit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lonelybytes.S2Kit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f81becb9-de47-4324-8fef-555b3cc4f88e";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -500,17 +470,20 @@
 		FA77000C1C9093FC00B63FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Babaev (H8VN44VCRU)";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/../KTV/_binaries/iOS/${CONFIGURATION}";
 				INFOPLIST_FILE = S2Kit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lonelybytes.S2Kit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f81becb9-de47-4324-8fef-555b3cc4f88e";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -629,6 +602,7 @@
 				FA77000C1C9093FC00B63FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA91DA481C442B2800A288A3 /* Build configuration list for PBXProject "s2generator" */ = {
 			isa = XCConfigurationList;

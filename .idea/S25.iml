@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVArray.swift">
-      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVArray.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject+Generation.swift">
-      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject+Generation.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject+Helpers.swift">
-      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject+Helpers.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject.swift">
-      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObjectError.swift">
+    <content url="file://$MODULE_DIR$/../KTV/Code/KTV">
       <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObjectError.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVValue+Resolvers.swift">
-      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVValue+Resolvers.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVValue.swift">
       <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVValue.swift" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../KTV/Code/KTV/parser">
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVArray.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVValue+Resolvers.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVGeneratorErrors.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVParseableUtils.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVMapper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVModelObject.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperInt.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperString.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperArray.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperBool.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperNSDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperDictionary.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/mappers/KTVModelMapperDouble.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVSerializable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVModelBasicMapper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/generators/KTVParseable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject+Helpers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/parser/KTVParser.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/parser/KTVParserErrors.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/parser/KTVParserCharGenerator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTV/KTVObject+Generation.swift" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../KTV/Code/KTVUtils">
       <sourceFolder url="file://$MODULE_DIR$/../KTV/Code/KTVUtils/DateUtils.swift" isTestSource="false" />
@@ -34,8 +34,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Code/S2/S2StylerErrors.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Code/S2/S2Styler+Extensions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Code/S2/generators/S2Generator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Code/S2/generators/S2GeneratorErrors.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Code/S2/generators/S2Generator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Code/S2/generators/S2GeneratorSwift.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Code/S2/S2Object.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Code/S2/S2Styler+UIExtensions.swift" isTestSource="false" />
@@ -48,6 +48,8 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
+          <root url="file://$MODULE_DIR$/../KTV/_binaries/iOS/Debug/KTVKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/../KTV/_binaries/iOS/Release/KTVKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
@@ -311,6 +313,8 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$MODULE_DIR$/../KTV/_binaries/iOS/Debug/KTVKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/../KTV/_binaries/iOS/Release/KTVKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />

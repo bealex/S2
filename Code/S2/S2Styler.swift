@@ -171,8 +171,8 @@ public class S2Styler: CustomStringConvertible {
         }
     }
 
-    func generateClassToFile(path:String, rootClassName:String, withGenerator generator: S2Generator, needS2Import: Bool) throws {
-        try generator.generateToFile(path, fromObject:_wholeNotExpandedStyle, rootClassName:rootClassName, needS2Import:needS2Import)
+    func generateClassToFile(path:String, rootClassName:String, withGenerator generator: S2Generator, needS2Import: Bool, needSingleton:Bool) throws {
+        try generator.generateToFile(path, fromObject:_wholeNotExpandedStyle, rootClassName:rootClassName, needS2Import:needS2Import, needSingleton:needSingleton)
 //        try generator.generateClassesToFile(path, fromObject:_expandedStyle, rootClassName:rootClassName)
     }
 

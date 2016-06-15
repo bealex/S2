@@ -13,6 +13,7 @@ var styleFilePath = ""
 var outputClassPath = ""
 var outputClassName = "S2Style"
 var needS2Import = true
+var needSingleton = false
 var needObjCCompatibility = true
 var reallyNeedObjCCompatibility = false // when specified as an argument
 
@@ -42,6 +43,8 @@ for argument in Process.arguments {
             needObjCCompatibility = reallyNeedObjCCompatibility
         case "-noFramework":
             needS2Import = false
+        case "-withS2Singleton":
+            needSingleton = true
 
         default:
             if index != 0 {
@@ -52,10 +55,8 @@ for argument in Process.arguments {
     index += 1
 }
 
-print("!!!!!!!!!!!!! \(needS2Import)")
-
 if styleFilePath.isEmpty || outputClassName.isEmpty || outputClassPath.isEmpty {
-    print("Usage: s2generator -s StyleFilePath -o OutputClassPath [-с ClassName] [-objc|-swift] [-noFramework]\n" +
+    print("Usage: s2generator -s StyleFilePath -o OutputClassPath [-с ClassName] [-objc|-swift] [-noFramework] [-withS2Singleton]\n" +
           "Will return 1 if generation is OK or 0 otherwise")
 
     exit(1)
@@ -70,7 +71,8 @@ if styleFilePath.isEmpty || outputClassName.isEmpty || outputClassPath.isEmpty {
         try styler.generateClassToFile("\(outputClassPath)/\(outputClassName).swift",
                          rootClassName:outputClassName,
                          withGenerator:S2GeneratorSwift(withObjCCompatibility:needObjCCompatibility),
-                         needS2Import:needS2Import)
+                         needS2Import:needS2Import,
+                         needSingleton:needSingleton)
     } catch {
         print("Error during generating of the S2 class file: \(error)")
     }

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBA19F12F75FE55A0798E9D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA18E8A986AC7CAFB12CA6 /* Test.swift */; };
+		2DBA1A0BA14F4C004BB09777 /* StyleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1597C5780C63D9234947 /* StyleObject.swift */; };
+		2DBA1E60DC5062E566DFCA2A /* S2GeneratorSwiftNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA170752F76375FCEC2C1D /* S2GeneratorSwiftNew.swift */; };
+		FA672F6C1D11A4B1003E9C2F /* StyleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1597C5780C63D9234947 /* StyleObject.swift */; };
 		FA7700091C9093FC00B63FCC /* S2Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7700081C9093FC00B63FCC /* S2Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA77000E1C90944500B63FCC /* S2Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA132CA925EA1651058FBC /* S2Generator.swift */; };
 		FA77000F1C90944500B63FCC /* S2GeneratorSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA13330CCA12F441405487 /* S2GeneratorSwift.swift */; };
 		FA7700101C90944500B63FCC /* S2GeneratorErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA195DFF1EE9AE025EA491 /* S2GeneratorErrors.swift */; };
 		FA7700111C90944500B63FCC /* S2Styler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA185E60E2DD94EE336389 /* S2Styler.swift */; };
-		FA7700121C90944500B63FCC /* S2Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA186CA7913B3C40169006 /* S2Object.swift */; };
 		FA7700131C90944500B63FCC /* S2StylerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */; };
 		FA7700141C90944500B63FCC /* S2Styler+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1FF29DB22A36B4BBD51B /* S2Styler+Extensions.swift */; };
 		FA7700151C90944500B63FCC /* S2Styler+UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA178178959918436470F0 /* S2Styler+UIExtensions.swift */; };
@@ -41,7 +44,6 @@
 		FAB11A731D11509A00A373A3 /* KTVParserCharGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A591D11509A00A373A3 /* KTVParserCharGenerator.swift */; };
 		FAB11A741D11509A00A373A3 /* KTVParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB11A5A1D11509A00A373A3 /* KTVParserErrors.swift */; };
 		FAB6087D1C6E406B008CCBDA /* S2Styler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA185E60E2DD94EE336389 /* S2Styler.swift */; };
-		FAB6087E1C6E406B008CCBDA /* S2Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA186CA7913B3C40169006 /* S2Object.swift */; };
 		FAB6087F1C6E406B008CCBDA /* S2StylerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */; };
 		FAB608801C6E406B008CCBDA /* S2Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA132CA925EA1651058FBC /* S2Generator.swift */; };
 		FAB608811C6E406B008CCBDA /* S2GeneratorSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA13330CCA12F441405487 /* S2GeneratorSwift.swift */; };
@@ -68,9 +70,11 @@
 		2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2StylerErrors.swift; sourceTree = "<group>"; };
 		2DBA132CA925EA1651058FBC /* S2Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Generator.swift; sourceTree = "<group>"; };
 		2DBA13330CCA12F441405487 /* S2GeneratorSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2GeneratorSwift.swift; sourceTree = "<group>"; };
+		2DBA1597C5780C63D9234947 /* StyleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleObject.swift; sourceTree = "<group>"; };
+		2DBA170752F76375FCEC2C1D /* S2GeneratorSwiftNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2GeneratorSwiftNew.swift; sourceTree = "<group>"; };
 		2DBA178178959918436470F0 /* S2Styler+UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "S2Styler+UIExtensions.swift"; sourceTree = "<group>"; };
 		2DBA185E60E2DD94EE336389 /* S2Styler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Styler.swift; sourceTree = "<group>"; };
-		2DBA186CA7913B3C40169006 /* S2Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Object.swift; sourceTree = "<group>"; };
+		2DBA18E8A986AC7CAFB12CA6 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		2DBA195DFF1EE9AE025EA491 /* S2GeneratorErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2GeneratorErrors.swift; sourceTree = "<group>"; };
 		2DBA1FF29DB22A36B4BBD51B /* S2Styler+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "S2Styler+Extensions.swift"; sourceTree = "<group>"; };
 		FA7700061C9093FC00B63FCC /* S2Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S2Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,12 +129,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBA109B29989D4E777CCE2B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA18E8A986AC7CAFB12CA6 /* Test.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		2DBA1AFD626A4BDF983C3DEB /* generators */ = {
 			isa = PBXGroup;
 			children = (
 				2DBA132CA925EA1651058FBC /* S2Generator.swift */,
 				2DBA13330CCA12F441405487 /* S2GeneratorSwift.swift */,
 				2DBA195DFF1EE9AE025EA491 /* S2GeneratorErrors.swift */,
+				2DBA170752F76375FCEC2C1D /* S2GeneratorSwiftNew.swift */,
 			);
 			path = generators;
 			sourceTree = "<group>";
@@ -139,11 +152,12 @@
 			isa = PBXGroup;
 			children = (
 				2DBA1AFD626A4BDF983C3DEB /* generators */,
+				2DBA1597C5780C63D9234947 /* StyleObject.swift */,
 				2DBA185E60E2DD94EE336389 /* S2Styler.swift */,
-				2DBA186CA7913B3C40169006 /* S2Object.swift */,
 				2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */,
 				2DBA1FF29DB22A36B4BBD51B /* S2Styler+Extensions.swift */,
 				2DBA178178959918436470F0 /* S2Styler+UIExtensions.swift */,
+				2DBA109B29989D4E777CCE2B /* Test */,
 			);
 			path = S2;
 			sourceTree = "<group>";
@@ -388,11 +402,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA672F6C1D11A4B1003E9C2F /* StyleObject.swift in Sources */,
 				FA77000E1C90944500B63FCC /* S2Generator.swift in Sources */,
 				FA77000F1C90944500B63FCC /* S2GeneratorSwift.swift in Sources */,
 				FA7700101C90944500B63FCC /* S2GeneratorErrors.swift in Sources */,
 				FA7700111C90944500B63FCC /* S2Styler.swift in Sources */,
-				FA7700121C90944500B63FCC /* S2Object.swift in Sources */,
 				FA7700131C90944500B63FCC /* S2StylerErrors.swift in Sources */,
 				FA7700141C90944500B63FCC /* S2Styler+Extensions.swift in Sources */,
 				FA7700151C90944500B63FCC /* S2Styler+UIExtensions.swift in Sources */,
@@ -406,7 +420,6 @@
 				FAB11A621D11509A00A373A3 /* KTVSerializable.swift in Sources */,
 				FAB11A601D11509A00A373A3 /* KTVParseable.swift in Sources */,
 				FAB6087D1C6E406B008CCBDA /* S2Styler.swift in Sources */,
-				FAB6087E1C6E406B008CCBDA /* S2Object.swift in Sources */,
 				FAB11A721D11509A00A373A3 /* KTVParser.swift in Sources */,
 				FAB11A741D11509A00A373A3 /* KTVParserErrors.swift in Sources */,
 				FAB11A6E1D11509A00A373A3 /* KTVObjectError.swift in Sources */,
@@ -437,6 +450,9 @@
 				FAB608831C6E406B008CCBDA /* S2Styler+Extensions.swift in Sources */,
 				FAF9D7FD1C8F26FF00317ADD /* ColorUtils.swift in Sources */,
 				FAB11A661D11509A00A373A3 /* KTVModelMapperDouble.swift in Sources */,
+				2DBA19F12F75FE55A0798E9D /* Test.swift in Sources */,
+				2DBA1E60DC5062E566DFCA2A /* S2GeneratorSwiftNew.swift in Sources */,
+				2DBA1A0BA14F4C004BB09777 /* StyleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

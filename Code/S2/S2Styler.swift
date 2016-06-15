@@ -14,8 +14,6 @@ public class S2Styler: CustomStringConvertible {
     private var _wholeNotExpandedStyle = KTVObject()
     private var _expandedStyle = KTVObject()
 
-    private var _styleObject: S2Object? = nil
-
     static func functionResolver(functionName:String, parameters:[String], rootObject:KTVObject) throws -> KTVValue {
         func getColor(colorString:String) throws -> (red:Double, green:Double, blue:Double, alpha:Double) {
             var r:Double = 0

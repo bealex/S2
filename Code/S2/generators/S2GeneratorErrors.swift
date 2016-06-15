@@ -15,4 +15,7 @@ enum S2GeneratorErrors: ErrorType {
 
     case BadFontObject
     case BadColorObject
+
+    case UnknownValueType
+    case UnsupportedValueType
 }

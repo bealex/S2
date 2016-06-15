@@ -56,7 +56,7 @@ for argument in Process.arguments {
 }
 
 if styleFilePath.isEmpty || outputClassName.isEmpty || outputClassPath.isEmpty {
-    print("Usage: s2generator -s StyleFilePath -o OutputClassPath [-с ClassName] [-objc|-swift] [-noFramework] [-withS2Singleton]\n" +
+    print("Usage: s2generator -s StyleFilePath -o OutputClassPath [-c ClassName] [-objc|-swift] [-noFramework] [-withS2Singleton]\n" +
           "Will return 1 if generation is OK or 0 otherwise")
 
     exit(1)
@@ -68,9 +68,11 @@ if styleFilePath.isEmpty || outputClassName.isEmpty || outputClassPath.isEmpty {
     styler.loadStyleFromFile(styleFilePath)
 
     do {
+        let generator = S2GeneratorSwiftNew()
+//        let generator = S2GeneratorSwift(withObjCCompatibility:needObjCCompatibility)
         try styler.generateClassToFile("\(outputClassPath)/\(outputClassName).swift",
                          rootClassName:outputClassName,
-                         withGenerator:S2GeneratorSwift(withObjCCompatibility:needObjCCompatibility),
+                         withGenerator:generator,
                          needS2Import:needS2Import,
                          needSingleton:needSingleton)
     } catch {

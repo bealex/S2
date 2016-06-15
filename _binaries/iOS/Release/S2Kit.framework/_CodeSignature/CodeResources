@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/S2Kit-Swift.h</key>
 		<data>
-		WSmXplvr1UROkpL29dNJ4G4DCbY=
+		iZ0p4ETGiHGHsyB+ARNvtYaUckw=
 		</data>
 		<key>Headers/S2Kit.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		OsLx2EpnU0hmmKwOuVrVAQTInHg=
+		QA0jAS2nNHlpX7D90aKRtsny08E=
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		t1ICRThs9Av+4GzaKy9yqz37xvA=
+		WzUtCjd7/KJqcZhg/BkAW/5Igq8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WSmXplvr1UROkpL29dNJ4G4DCbY=
+			iZ0p4ETGiHGHsyB+ARNvtYaUckw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6iBxItPP/0be0GPYjJ05b2CU4dpF+II4ETgaVcfnDRs=
+			zx9+NsTcEQEgcGXb18XTP7cZ2UWpOTg2RsMCdm/f6X0=
 			</data>
 		</dict>
 		<key>Headers/S2Kit.h</key>
@@ -80,11 +80,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OsLx2EpnU0hmmKwOuVrVAQTInHg=
+			QA0jAS2nNHlpX7D90aKRtsny08E=
 			</data>
 			<key>hash2</key>
 			<data>
-			AHnkZnQC1+WIrh8OyZVtmIC1K5Fb98u06XB4Ro2quBM=
+			Qtki0xIUt6k84LG8QqBS4Wds+eJSogZ8lzhhscC6LXw=
 			</data>
 		</dict>
 		<key>Modules/S2Kit.swiftmodule/arm64.swiftdoc</key>
@@ -102,11 +102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t1ICRThs9Av+4GzaKy9yqz37xvA=
+			WzUtCjd7/KJqcZhg/BkAW/5Igq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uNxfRBwlqg+pV6w4ZKrSoqlDInrq8iRvwIqvEe1FI4U=
+			3l2/5ILJmvzMXvA9iDx0Ivnphb08dSVY5JqR6K4f3eY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

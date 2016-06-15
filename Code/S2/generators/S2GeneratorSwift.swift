@@ -51,6 +51,7 @@ private extension String {
 
 class S2GeneratorSwift: S2Generator {
     private let _needObjCCompatibility:Bool
+    private var _usingSingleton:Bool = false
 
     private var _rootObject = KTVObject()
     private var _usedClassNamesForObjC:[String] = []
@@ -63,8 +64,10 @@ class S2GeneratorSwift: S2Generator {
         //ToDo: this is why class is not thread-safe
         _rootObject = ktvObject
 
+        _usingSingleton = needSingleton
+
         var fileString = fileHeader(rootClassName, needS2Import:needS2Import, needSingleton:needSingleton)
-        let (structString, _) = try getStructForObject(_rootObject, className:rootClassName, isRootClass:true)
+        let (structString, _) = try getStructForObject(_rootObject, className:rootClassName, isRootClass:true, usingSingleton:needSingleton)
         fileString += structString
 
         try fileString.writeToFile(path, atomically:true, encoding:NSUTF8StringEncoding)
@@ -85,7 +88,7 @@ class S2GeneratorSwift: S2Generator {
                "\n"
     }
 
-    private func getStructForObject(object:KTVObject, className:String, isRootClass:Bool) throws -> (String, String) {
+    private func getStructForObject(object:KTVObject, className:String, isRootClass:Bool, usingSingleton:Bool) throws -> (String, String) {
         let classOrStruct = _needObjCCompatibility ? "@objc public class" : "public struct"
         let parentClass = _needObjCCompatibility ? "S2ObjectForObjC" : "S2Object"
 
@@ -103,7 +106,7 @@ class S2GeneratorSwift: S2Generator {
         var result = "\(classOrStruct) \(classNameForObjC): \(parentClass) " +
                      "{\n";
         if isRootClass {
-            result += "    private static let _rootStyle = S2\n"
+            result += "    private var _rootStyle:\(classNameForObjC) { get { return self } }\n"
             if isRootClass && _needObjCCompatibility {
                 result += "    public static func rootStyle() -> \(classNameForObjC) { return S2 } // because ObjC can not see the global variable\n"
             }
@@ -174,43 +177,47 @@ class S2GeneratorSwift: S2Generator {
     }
 
     private func serializeValue(propertyValue:KTVValue, withName name:String) throws -> String {
+        let isLet = false
+
         var result = ""
+        let varType = "var"
+//        let varType = isLet ? "let" : "var"
 
         switch propertyValue {
             case .nilValue:
-                result = "    let \(name):AnyObject? = nil\n"
+                result = "    \(varType) \(name):AnyObject? = nil\n"
             case .bool(let value):
-                result = "    let \(name):Bool = \(value)\n"
+                result = "    \(varType) \(name):Bool = \(value)\n"
             case .string(let value):
                 if (name == "color" || name.hasSuffix("Color")) && value == "clear" {
-                    result = "    let \(name):UIColor = UIColor.clearColor()\n"
+                    result = "    \(varType) \(name):UIColor = UIColor.clearColor()\n"
                 } else {
-                    result = "    let \(name):String = \"\(escapeString(value))\"\n"
+                    result = "    \(varType) \(name):String = \"\(escapeString(value))\"\n"
                 }
             case .int(let value):
-                result = "    let \(name):Int = Int(\(value))\n"
+                result = "    \(varType) \(name):Int = Int(\(value))\n"
             case .double(let value):
-                result = "    let \(name):CGFloat = CGFloat(\(value))\n"
+                result = "    \(varType) \(name):CGFloat = CGFloat(\(value))\n"
 
             case .color(let value):
-                result = "    let \(name):UIColor = \(colorValue(value))\n"
+                result = "    \(varType) \(name):UIColor = \(colorValue(value))\n"
 
             case .object(let type, let object):
                 result = try serializeObjectValue(object, type:type, name:name)
             case .array(let type, let values):
-                result = try serializeArrayValue(values, type:type, name:name)
+                result = try serializeArrayValue(values, type:type, name:name, isLet:isLet)
 
             case .reference(let link):
                 if link.hasPrefix("~") {
                     let functionResultValue = try _rootObject.findObjectByReference(link, functionResolver: S2Styler.functionResolver)
                     switch functionResultValue {
                         case .color(let hexColor):
-                            result = "    let \(name) = \(colorValue(hexColor))\n"
+                            result = "    \(varType) \(name) = \(colorValue(hexColor))\n"
                         default:
                             break
                     }
                 } else {
-                    result = "    let \(name) = \(referenceProperty(propertyValue))\n"
+                    result = "    \(varType) \(name) = \(referenceProperty(propertyValue))\n"
                 }
         }
 
@@ -231,9 +238,11 @@ class S2GeneratorSwift: S2Generator {
         return result
     }
 
-    private func serializeArrayValue(values:[KTVValue], type:String, name:String) throws -> String {
+    private func serializeArrayValue(values:[KTVValue], type:String, name:String, isLet:Bool) throws -> String {
         var className = ""
         var value = ""
+
+        let varType = isLet ? "let" : "var"
 
         if arrayIsPoint(values, type:type, name:name) {
             className = ""
@@ -302,7 +311,7 @@ class S2GeneratorSwift: S2Generator {
             value += "]"
         }
 
-        return "    let \(name)\(className) = \(value)\n"
+        return "    \(varType) \(name)\(className) = \(value)\n"
     }
 
     private func serializeObjectValue(object:KTVObject, type:String, name:String) throws -> String {
@@ -319,7 +328,7 @@ class S2GeneratorSwift: S2Generator {
             value = try textAttributesValue(object).stringByReplacingOccurrencesOfString("\n", withString:"\n    ")
         } else {
             className = name.capitalizeFirstLetter()
-            let (structString, classNameForObjC) = try getStructForObject(object, className:className, isRootClass:false)
+            let (structString, classNameForObjC) = try getStructForObject(object, className:className, isRootClass:false, usingSingleton:_usingSingleton)
             className = ":" + classNameForObjC
             structDefinition = "\n    " + (structString.stringByReplacingOccurrencesOfString("\n", withString:"\n    "))
             value = "\(classNameForObjC)()"

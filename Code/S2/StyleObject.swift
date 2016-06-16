@@ -10,11 +10,6 @@ import Foundation
 
 public protocol StyleObject {
     var ktv: KTVObject { get }
-
-    func int(key:String) -> Int
-    func string(key:String) -> String
-    func double(key:String) -> Double
-    func bool(key:String) -> Bool
 }
 
 public extension StyleObject {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBA12C2F69124E404B71736 /* StyleObject+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA14B25485E071E340A24F /* StyleObject+UIKit.swift */; };
 		2DBA19F12F75FE55A0798E9D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA18E8A986AC7CAFB12CA6 /* Test.swift */; };
 		2DBA1A0BA14F4C004BB09777 /* StyleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1597C5780C63D9234947 /* StyleObject.swift */; };
 		2DBA1E60DC5062E566DFCA2A /* S2GeneratorSwiftNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA170752F76375FCEC2C1D /* S2GeneratorSwiftNew.swift */; };
@@ -70,6 +71,7 @@
 		2DBA11CC01F1A144B57087CD /* S2StylerErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2StylerErrors.swift; sourceTree = "<group>"; };
 		2DBA132CA925EA1651058FBC /* S2Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Generator.swift; sourceTree = "<group>"; };
 		2DBA13330CCA12F441405487 /* S2GeneratorSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2GeneratorSwift.swift; sourceTree = "<group>"; };
+		2DBA14B25485E071E340A24F /* StyleObject+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StyleObject+UIKit.swift"; sourceTree = "<group>"; };
 		2DBA1597C5780C63D9234947 /* StyleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleObject.swift; sourceTree = "<group>"; };
 		2DBA170752F76375FCEC2C1D /* S2GeneratorSwiftNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2GeneratorSwiftNew.swift; sourceTree = "<group>"; };
 		2DBA178178959918436470F0 /* S2Styler+UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "S2Styler+UIExtensions.swift"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				2DBA1FF29DB22A36B4BBD51B /* S2Styler+Extensions.swift */,
 				2DBA178178959918436470F0 /* S2Styler+UIExtensions.swift */,
 				2DBA109B29989D4E777CCE2B /* Test */,
+				2DBA14B25485E071E340A24F /* StyleObject+UIKit.swift */,
 			);
 			path = S2;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				FA7700131C90944500B63FCC /* S2StylerErrors.swift in Sources */,
 				FA7700141C90944500B63FCC /* S2Styler+Extensions.swift in Sources */,
 				FA7700151C90944500B63FCC /* S2Styler+UIExtensions.swift in Sources */,
+				2DBA12C2F69124E404B71736 /* StyleObject+UIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
